@@ -50,6 +50,7 @@ if(searchAccount(account_number)) //if account is found
 }
 else
     errorBox(" Account Not Found! ");
+    loginMenu();
 }
 void accountManagementMenu()
 {

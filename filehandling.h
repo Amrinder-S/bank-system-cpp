@@ -74,7 +74,7 @@ void removeAccount(int n)
 				saveAccount(acc, 1);
 			}
 	}
-	system("rename temp.dat account.dat > nul && delete temp.dat > nul");
+	system("rename temp.dat account.dat > nul && del temp.dat > nul");
 	file.close();
 }
 
